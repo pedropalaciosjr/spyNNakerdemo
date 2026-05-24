@@ -28,7 +28,7 @@ def main():
         "v_thresh": -50.0
     }
 
-    runtime = 250 # Simulate for 50 milliseconds
+    runtime = 250 # Simulate for 250 milliseconds
 
     neuron = sim.IF_curr_exp(**neuron_parameters)
 
